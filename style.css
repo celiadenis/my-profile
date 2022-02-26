@@ -1,0 +1,107 @@
+/*Color and fonts*/
+
+body{
+    background-color: #FFEDDB;
+    color: #483434;
+	font-family: 'EB Garamond', serif;
+	font-size: 16px}
+
+h1{
+	color: #483434;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 35px;
+	letter-spacing: 2px}
+
+h2{
+	color: #603601;
+	font-family: 'Cinzel', serif;
+	font-weight: bolder;
+	font-size: 20px}
+
+a{
+	color: #8E806A;
+	font-family: 'EB Garamond', serif;
+	font-weight: bold;
+	text-decoration: none;
+	transition: color 0.3s ease}
+
+a:hover {color: #6e5e46}
+
+
+/*Custom design with class*/
+
+.container {
+	width: 700px;
+	margin: 30px auto;
+	text-align: center
+}
+
+@media(max-width: 750px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media(max-width: 630px) {
+	.container {
+		width: 520px;
+	}
+}
+@media(max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-lightbrown { 
+	background-color: #e5c4a8;
+    padding: 30px;
+   	margin: 25px 0px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 30%);
+    border-radius: 5px;
+    border: 2px black;
+    text-align: center
+}
+.card-lightbrown:hover {
+	background-color: #daba9f;
+}
+.btn-brown {
+	background-color: #8E806A;
+	color: #e5c4a8;
+    padding: 8px 10px;
+	border-radius: 5px;
+}
+.btn-brown:hover {
+	background-color: #6e5e46;
+	color: #e5c4a8;
+	transition: color 0.3s ease
+}
+.list-inline {
+	list-style: none;
+	padding left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+}
+
+/*Design adjustments using id*/
+
+#img-circle-shadowed {
+	border-radius: 50%;
+	box-shadow: 5px 5px 3px rgba(0,0,0,0.3);
+	width: 220px;
+	height:220px;
+	margin-bottom: 10px;
+}
+#introduction2 {margin-bottom: 30px}
+
+#title {margin-bottom: 20px}
+
+#text1 {margin-bottom: 30px}
+
+
